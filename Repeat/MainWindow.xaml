@@ -9,12 +9,8 @@
         Title="Repeat" Height="800" Width="1000">
     <Window.Resources>
         <Style x:Key="CodeTextBox" TargetType="TextBox">
-            <Setter Property="Background">
-                <Setter.Value>
-                    <SolidColorBrush Color="LightYellow" />
-                </Setter.Value>
-            </Setter>
-            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="FontFamily" Value="Verdana" />
+            <Setter Property="FontSize" Value="16" />
         </Style>
     </Window.Resources>
     <Grid>
